@@ -24,10 +24,6 @@ export default class App extends BaseController {
 	tabFilters: Filter[];
 	searchQuery: string;
 	filterKey: ("active" | "completed" | "all");
-
-
-
-
 	
 	public onInit(): void {
 		this.searchFilters = [];
@@ -51,7 +47,7 @@ export default class App extends BaseController {
 			completed: false
 		});
 
-		model.setProperty("/todos", todos);
+		      model.setProperty("/todos", todos);
 		model.setProperty("/newTodo", "");
 	}
 
