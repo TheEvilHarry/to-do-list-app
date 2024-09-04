@@ -5,8 +5,8 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - name: Lint Action
-        uses: wearerequired/lint-action@v2.0.0
+      - name: ESLint
+        uses: icrawl/action-eslint@v1
      
     
             
