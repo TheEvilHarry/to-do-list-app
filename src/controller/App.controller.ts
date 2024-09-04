@@ -25,6 +25,10 @@ export default class App extends BaseController {
 	searchQuery: string;
 	filterKey: ("active" | "completed" | "all");
 
+
+
+
+	
 	public onInit(): void {
 		this.searchFilters = [];
 		this.tabFilters = [];
